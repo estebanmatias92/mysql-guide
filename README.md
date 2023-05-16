@@ -51,8 +51,8 @@
 
 - [Guia 3: Numpy, Pandas - Introduccion al Analisis de Datos]()
 
-### Modulo 4 - Desarrollo de Aplicacion
+## Modulo 4 - Desarrollo de Aplicacion
 
-#### Trabajo Integrador
+### Trabajo Integrador
 
 - [Consigna: Aplicación Final](https://docs.google.com/document/d/1zQVobc4V5KrhRvbVNZHvV-LWbIYlyf08o9UZKOjSrcg/edit?usp=sharing)
