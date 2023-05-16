@@ -1,0 +1,13 @@
+# Python
+__pycache__
+
+# Google Docs
+*.gdoc
+
+# Study Plan
+solucion
+curricular
+
+# Enabling Solutions
+#!/modulo-1/tareas/solucion/
+
