@@ -19,7 +19,7 @@
 
 ### Recursos
 
-- [Python OOP - Cheatsheet](https://www.pythoncheatsheet.org/cheatsheet/oop-basics)
+- [Programacion Orientada a Objetos (Python) - Conceptos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-1/recursos/concepts.md)
 - [Python Handbook Español (Classes)](https://www.freecodecamp.org/espanol/news/el-manual-de-python/#classesinpython)
 - [PROGRAMACIÓN ORIENTADA A OBJETOS EN PYTHON](https://unipython.com/programacion-orientada-objetos-python/)
 - [CURSO GRATIS de Python, Programación Orientada a Objetos](https://www.youtube.com/watch?v=Z3XYBjQjZ9g)
@@ -32,9 +32,13 @@
 
 ### Demo
 
+- [Shopping.db](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/demo/Shopping.db)
+
 ### Recursos
 
-- [SQL-EASY](https://www.sql-easy.com/es/)
+- [Base de Datos - Conceptos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/concepts.md)
+- [SQL - Consultas](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/queries.md)
+- [SQL-EASY (Interactivo)](https://www.sql-easy.com/es/)
 - [Aprende SQL ahora! curso completo gratis desde cero](https://www.youtube.com/watch?v=uUdKAYl-F7g)
 
 ### Trabajo en Clase
