@@ -38,6 +38,9 @@
 
 - [Base de Datos - Conceptos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/concepts.md)
 - [SQL - Consultas](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/queries.md)
+- [Queries - Cheatsheet](http://mialtoweb.es/guia-rapida-de-sql-resumen-de-todas-las-instrucciones-sql/)
+- [Manual SQL](https://www.1keydata.com/es/sql/)
+- [Manual SQL (PostgreSQL)](https://www.um.es/geograf/sigmur/sigpdf/postgresql.pdf)
 - [SQL-EASY (Interactivo)](https://www.sql-easy.com/es/)
 - [Aprende SQL ahora! curso completo gratis desde cero](https://www.youtube.com/watch?v=uUdKAYl-F7g)
 
