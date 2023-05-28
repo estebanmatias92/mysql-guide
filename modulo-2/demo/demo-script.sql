@@ -1,13 +1,44 @@
 
+-- Eliminar la tabla OrderItems si existe
+DROP TABLE IF EXISTS OrderItems;
+-- Eliminar la tabla Orders si existe
+DROP TABLE IF EXISTS Orders;
+-- Eliminar la tabla Products si existe
+DROP TABLE IF EXISTS Products;
 -- Eliminar la tabla Employees si existe
 DROP TABLE IF EXISTS Employees;
 
 -- Crear tabla Employees, dentro de la base de datos Shopping
 CREATE TABLE IF NOT EXISTS Employees (
-  EmployeeID INTEGER PRIMARY KEY,
+  EmployeeID INTEGER PRIMARY KEY AUTOINCREMENT,
   FirstName TEXT,
   LastName TEXT,
   Age INTEGER
+);
+
+-- Crear tabla Products
+CREATE TABLE IF NOT EXISTS Products (
+  ProductID INTEGER PRIMARY KEY AUTOINCREMENT,
+  ProductName TEXT,
+  Price REAL
+);
+
+-- Crear tabla Orders con clave foranea (depende de Employees)
+CREATE TABLE IF NOT EXISTS Orders (
+  OrderID INTEGER PRIMARY KEY AUTOINCREMENT,
+  EmployeeID INTEGER,
+  OrderDate DATE,
+  FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
+);
+
+-- Crear tabla OrderItems con claves foráneas (depende de Employees y Orders)
+CREATE TABLE IF NOT EXISTS OrderItems (
+  OrderItemID INTEGER PRIMARY KEY AUTOINCREMENT,
+  OrderID INTEGER,
+  ProductID INTEGER,
+  Quantity INTEGER,
+  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
+  FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 
 -- Insertar datos en la tabla Employees
@@ -18,16 +49,6 @@ VALUES
 ('Alice', 'Johnson', 28), 
 ('Bob', 'Smith', 45);
 
--- Eliminar la tabla Products si existe
-DROP TABLE IF EXISTS Products;
-
--- Crear tabla Products
-CREATE TABLE IF NOT EXISTS Products (
-  ProductID INTEGER PRIMARY KEY,
-  ProductName TEXT,
-  Price REAL
-);
-
 -- Insertar datos en la tabla Products
 INSERT INTO Products (ProductName, Price) 
 VALUES 
@@ -37,17 +58,6 @@ VALUES
 ('Dates', 3.00),
 ('Eclair', 2.50);
 
--- Eliminar la tabla Orders si existe
-DROP TABLE IF EXISTS Orders;
-
--- Crear tabla Orders
-CREATE TABLE IF NOT EXISTS Orders (
-  OrderID INTEGER PRIMARY KEY,
-  EmployeeID INTEGER,
-  OrderDate DATE,
-  FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
-);
-
 -- Insertar datos en la tabla Orders
 INSERT INTO Orders (EmployeeID, OrderDate) 
 VALUES 
@@ -56,20 +66,6 @@ VALUES
 (3, '2023-01-03'), 
 (1, '2023-01-04'), 
 (2, '2023-01-05');
-
--- Eliminar la tabla OrderItems si existe
-DROP TABLE IF EXISTS OrderItems;
-
--- Crear tabla OrderItems con claves foráneas
-CREATE TABLE IF NOT EXISTS OrderItems (
-  OrderItemID INTEGER,
-  OrderID INTEGER,
-  ProductID INTEGER,
-  Quantity INTEGER,
-  PRIMARY KEY (OrderItemID),
-  FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),
-  FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
-);
 
 -- Insertar datos en la tabla OrderItems
 INSERT INTO OrderItems (OrderID, ProductID, Quantity) 
