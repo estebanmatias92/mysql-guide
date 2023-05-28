@@ -6,16 +6,16 @@ DROP TABLE IF EXISTS Employees;
 -- Crear primero la tabla Employees
 CREATE TABLE Employees (
     EmployeeID INTEGER PRIMARY KEY AUTOINCREMENT,
-    FirstName TEXT,
-    LastName TEXT,
+    FirstName TEXT NOT NULL,
+    LastName TEXT NOT NULL,
     Age INTEGER
 );
 
 -- Crear luego la tabla Orders que depende de Employees por su clave foranea
 CREATE TABLE Orders (
     OrderID INTEGER PRIMARY KEY AUTOINCREMENT,
-    EmployeeID INTEGER,
-    Product TEXT,
+    EmployeeID INTEGER NOT NULL,
+    Product TEXT NOT NULL,
     FOREIGN KEY(EmployeeID) REFERENCES Employees(EmployeeID)
 );
 
