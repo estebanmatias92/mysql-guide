@@ -2,7 +2,7 @@
 
 ## 1. Introducción a las bases de datos y SQL
 
-Una base de datos es un conjunto organizado de datos. SQL (Structured Query Language) es un lenguaje que se utiliza para interactuar con bases de datos, como recuperar datos, insertar registros, actualizar registros y eliminar registros.
+Una base de datos es un conjunto organizado de datos. SQL (Structured Query Language) **es un lenguaje que se utiliza para interactuar con bases de datos**, como recuperar datos, insertar registros, actualizar registros y eliminar registros.
 
 Para nuestros ejemplos, utilizaremos tres tablas de datos imaginarias: "Employees", "Products" y "Orders", y una tabla de unión "OrderItems".
 
@@ -49,17 +49,13 @@ _Tabla "OrderItems":_
 
 Para poder seguir los ejemplos, primero debemos crear la base de datos, sus tablas y llenarlas con datos.
 
-Usaremos [SQLite3](https://www.sqlite.org/2023/sqlite-tools-win32-x86-3420000.zip), donde cada archivo es una base de datos distinta, y no se necesita de las queries `CREATE DATABASE Shopping;`, ni `USE Shopping;`
+Usaremos [SQLite3](https://www.sqlite.org/2023/sqlite-tools-win32-x86-3420000.zip) como manejador de base de datos, donde cada archivo es una base de datos distinta, y no se necesita de las queries `CREATE DATABASE shopping;`, ni `USE shopping;`
 
-A continuacion, desde la terminal, posicionado desde la carpeta donde se encuentra el archivo descargado "[Shopping.db](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/demo/Shopping.db)", ejecutar el siguiente codigo.
+Y [DB Browser](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.msi) como cliente grafico de SQL, para visualizar nuestra base de datos.
 
-```powershell
-sqlite3 Shopping.db
-```
+Y por ultimo, el script "[demo-script.sql](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/demo/demo-script.sql)", para inicializar nuestra base de datos, con las tablas y datos descritos anteriormente.
 
-Esto ejecuta las queries que crean las tablas anteriormente mencionadas y los respectivos datos.
-
-_Nota: Tambien se puede abrir y usar desde una interfaz grafica como [DB Browser](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.msi)_
+_Nota: Tambien se puede [usar sqlite3 desde la terminal e inicializar la Database desde alli](https://chat.openai.com/share/f998c329-097d-47dd-9fd9-16720ff88f2d)._
 
 ## 3. CLausulas SQL y Funciones
 

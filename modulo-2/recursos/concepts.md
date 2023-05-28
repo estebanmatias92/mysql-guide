@@ -2,7 +2,7 @@
 
 ## 1. Base de datos
 
-Una base de datos es una colección organizada de datos. Estos datos se organizan de manera que soporten procesos que requieren información, como consultas y reportes.
+Una base de datos **es una colección organizada de datos**. Estos datos se organizan de manera que soporten procesos que requieren información, como consultas y reportes.
 
 ```ascii
 +-----------+
@@ -17,7 +17,7 @@ Una base de datos es una colección organizada de datos. Estos datos se organiza
 
 ## 2. Tabla
 
-Una tabla es una colección de datos relacionados organizados en filas (registros) y columnas (campos). Cada tabla tiene un nombre único.
+Una tabla es una **colección de datos relacionados organizados en filas (registros) y columnas (campos)**. Cada tabla tiene un nombre único.
 
 ```ascii
 +---------------------------------------+
@@ -33,7 +33,7 @@ Una tabla es una colección de datos relacionados organizados en filas (registro
 
 ## 3. Registro
 
-Un registro en una base de datos es una unidad de información. Cada registro consiste en un conjunto de campos relacionados entre sí. En el contexto de una tabla de base de datos, un registro se puede visualizar como una fila única en la tabla. Cada registro generalmente representa un objeto o entidad específica. Por ejemplo, en una tabla "Usuarios", cada registro podría representar a un usuario individual.
+Un registro en una base de datos **es una unidad de información**. Cada registro consiste en un **conjunto de campos relacionados entre sí**. En el contexto de una tabla de base de datos, un registro **se puede visualizar como una fila única en la tabla**. Cada registro generalmente representa un objeto o entidad específica. Por ejemplo, en una tabla "Usuarios", cada registro podría representar a un usuario individual.
 
 ```ascii
 +--------+---------+--------+-----------+
@@ -45,7 +45,7 @@ Un registro en una base de datos es una unidad de información. Cada registro co
 
 ## 4. Campo
 
-Los campos son los componentes individuales dentro de un registro y cada uno almacena un elemento de datos específico. En el contexto de una tabla de base de datos, un campo se puede visualizar como una columna. Por ejemplo, en una tabla "Usuarios", podrías tener campos como "UserID", "Nombre", "Ciudad" y "Edad". Cada uno de estos campos almacena un tipo específico de datos relacionados con un usuario.
+Los campos son los **componentes individuales dentro de un registro** y cada uno almacena un elemento de datos específico. En el contexto de una tabla de base de datos, un campo **se puede visualizar como una columna**. Por ejemplo, en una tabla "Usuarios", podrías tener campos como "UserID", "Nombre", "Ciudad" y "Edad". Cada uno de estos campos almacena un tipo específico de datos relacionados con un usuario.
 
 ```ascii
 +---------+
@@ -59,7 +59,7 @@ Los campos son los componentes individuales dentro de un registro y cada uno alm
 
 ### 1. Clave Primaria (PK - Primary Key)
 
-La clave primaria de una tabla es un campo único que identifica cada fila en la tabla. No puede haber dos filas (registros) en una tabla con la misma clave primaria.
+La clave primaria de una tabla **es un campo único que identifica cada fila en la tabla**. No puede haber dos filas (registros) en una tabla con la misma clave primaria.
 
 ```ascii
 +--------+ 
@@ -73,7 +73,7 @@ La clave primaria de una tabla es un campo único que identifica cada fila en la
 
 ### 2. Clave Foránea (FK - Foreign Key)
 
-Una clave foránea es un campo en una tabla que es la clave primaria en otra tabla. Se utiliza para establecer y hacer cumplir un vínculo entre los datos de dos tablas.
+Una clave foránea es un campo en una tabla que **es la clave primaria en otra tabla**. Se utiliza para establecer y hacer cumplir un vínculo entre los datos de dos tablas.
 
 ```ascii
 +---------+-----------------+
@@ -87,7 +87,7 @@ Una clave foránea es un campo en una tabla que es la clave primaria en otra tab
 
 ## Diagrama Entidad-Relación
 
-Un Diagrama Entidad-Relación (ERD) es una representación visual de las principales entidades dentro de una base de datos, así como las relaciones entre ellas. Es una herramienta importante en el diseño de bases de datos. Aquí hay un ejemplo simplificado:
+Un **Diagrama Entidad-Relación (ERD) es una representación visual de las principales entidades dentro de una base de datos**, así como las relaciones entre ellas. Es una herramienta importante en el diseño de bases de datos. Aquí hay un ejemplo simplificado:
 
 ```ascii
 +----------------+    +----------------+
