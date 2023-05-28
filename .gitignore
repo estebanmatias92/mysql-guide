@@ -9,6 +9,6 @@ solucion
 curricular
 
 # Enabling Solutions
-!/modulo-1/guia/solucion/
-#!/modulo-2/guia/solucion/
+!/modulo-1/**/solucion/
+#!/modulo-2/**/solucion/
 
