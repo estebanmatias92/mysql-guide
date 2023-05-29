@@ -16,7 +16,7 @@ CREATE TABLE Orders (
     OrderID INTEGER PRIMARY KEY AUTOINCREMENT,
     EmployeeID INTEGER NOT NULL,
     Product TEXT NOT NULL UNIQUE,
-    FOREIGN KEY(EmployeeID) REFERENCES Employees(EmployeeID)
+    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)
 );
 
 -- Insertar Datos en Employees
