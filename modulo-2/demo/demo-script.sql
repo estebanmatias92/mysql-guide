@@ -5,6 +5,8 @@ DROP TABLE IF EXISTS OrderItems;
 DROP TABLE IF EXISTS Orders;
 -- Eliminar la tabla Products si existe
 DROP TABLE IF EXISTS Products;
+-- Eliminar la tabla Customers si existe
+DROP TABLE IF EXISTS Customers;
 -- Eliminar la tabla Employees si existe
 DROP TABLE IF EXISTS Employees;
 
@@ -14,6 +16,14 @@ CREATE TABLE IF NOT EXISTS Employees (
   FirstName TEXT,
   LastName TEXT,
   Age INTEGER
+);
+
+-- Crear tabla Customers
+CREATE TABLE IF NOT EXISTS Customers (
+  CustomerID INTEGER PRIMARY KEY AUTOINCREMENT, 
+  FirstName TEXT,
+  LastName TEXT,
+  Email TEXT 
 );
 
 -- Crear tabla Products
@@ -48,6 +58,17 @@ VALUES
 ('Jane', 'Doe', 32), 
 ('Alice', 'Johnson', 28), 
 ('Bob', 'Smith', 45);
+
+
+-- Insertar datos en la tabla Customers
+INSERT INTO Customers (FirstName, LastName, Email)
+VALUES
+('Slavok', 'Sizek', 'slavok@gmail.com'),
+('Alice', 'Johnson', 'alice@gmail.com'), 
+('Yanis', 'Varoufakis', 'yanis@gmail.com'),
+('Steve', 'Morris', 'steve@gmail.com'),
+('Tom', 'Bailey', 'thomas@gmail.com'),
+('Bob', 'Smith', 'robert@gmail.com');
 
 -- Insertar datos en la tabla Products
 INSERT INTO Products (ProductName, Price) 

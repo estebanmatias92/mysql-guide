@@ -12,3 +12,6 @@ curricular
 !/modulo-1/**/solucion/
 #!/modulo-2/**/solucion/
 
+
+.db*
+
