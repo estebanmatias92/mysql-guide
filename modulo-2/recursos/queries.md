@@ -57,7 +57,7 @@ Y por ultimo, el script "[demo-script.sql](https://github.com/estebanmatias92/cu
 
 _Nota: Tambien se puede [usar sqlite3 desde la terminal e inicializar la Database desde alli](https://chat.openai.com/share/f998c329-097d-47dd-9fd9-16720ff88f2d)._
 
-## 3. CLausulas SQL y Funciones
+## 3. CLausulas SQL y Funciones de Agregacion
 
 ### 1. SELECT
 
