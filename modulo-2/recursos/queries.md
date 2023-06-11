@@ -457,7 +457,7 @@ UNION
 SELECT FirstName FROM Customers;
 ```
 
-_Resultado (imaginado):_
+_Resultado:_
 
 | FirstName |
 |-----------|
@@ -480,7 +480,7 @@ UNION ALL
 SELECT FirstName FROM Customers;
 ```
 
-_Resultado (imaginado):_
+_Resultado:_
 
 | FirstName |
 |-----------|
@@ -493,7 +493,32 @@ _Resultado (imaginado):_
 | Alice     |
 | Bob       |
 
-### 23. NULL
+### 23. SUBCONSULTA
+
+Una subconsulta es una consulta que se encuentra dentro de otra consulta. Se pueden utilizar en SELECT, INSERT, UPDATE, DELETE y en la cláusula WHERE para definir criterios más avanzados.
+
+_Ejemplo:_
+
+Supongamos que quieres encontrar todos los pedidos hechos por el empleado más joven. Podrías hacerlo de la siguiente manera:
+
+```sql
+SELECT * 
+FROM Orders
+WHERE EmployeeID IN (
+    SELECT EmployeeID 
+    FROM Employees 
+    WHERE Age = (SELECT MIN(Age) FROM Employees)
+);
+
+```
+
+_Resultado:_
+
+| OrderID  | EmployeeID | Product  |
+|----------|------------|----------|
+| 3        | 3          | Cherries |
+
+### 24. NULL
 
 En SQL, NULL es el término usado para representar un valor perdido o desconocido.
 
@@ -507,7 +532,7 @@ _Resultado:_
 
 Ningún resultado, ya que en nuestras tablas imaginarias no hay empleados con el campo "LastName" nulo.
 
-### 24. ALTER TABLE
+### 25. ALTER TABLE
 
 Este comando se utiliza para agregar, eliminar/desactivar o modificar columnas en una tabla existente.
 
@@ -519,7 +544,7 @@ ALTER TABLE Employees ADD Email text;
 
 Resultado: La tabla "Employees" ahora tiene una nueva columna llamada "Email".
 
-### 25. DROP TABLE
+### 26. DROP TABLE
 
 Este comando se utiliza para eliminar una tabla existente en una base de datos.
 
@@ -531,7 +556,7 @@ DROP TABLE Customers;
 
 Resultado: La tabla "Customers" ha sido eliminada de la base de datos.
 
-### 26. CREATE DATABASE
+### 27. CREATE DATABASE
 
 Este comando se utiliza para crear una nueva base de datos en SQL.
 
@@ -543,7 +568,7 @@ CREATE DATABASE TestDatabase;
 
 Resultado: Se ha creado una nueva base de datos llamada "TestDatabase".
 
-### 27. USE DATABASE
+### 28. USE DATABASE
 
 Este comando se utiliza para seleccionar una base de datos SQL específica en la que se realizarán todas las operaciones siguientes.
 
@@ -557,13 +582,13 @@ USE TestDatabase;
 
 Resultado: Todas las operaciones siguientes se realizarán en la base de datos "TestDatabase".
 
-### 28. ALTER DATABASE
+### 29. ALTER DATABASE
 
 Este comando se utiliza para modificar la base de datos.
 
 Nota: Este comando no es soportado en SQLite. Pero en otros sistemas de gestión de bases de datos, como SQL Server, se puede utilizar para cambiar el nombre de la base de datos, modificar el tamaño de la base de datos, etc.
 
-### 29. CREATE INDEX
+### 30. CREATE INDEX
 
 Este comando se utiliza para crear un índice en una tabla. Los índices son utilizados para recuperar datos de la base de datos más rápidamente que sin utilizar índices.
 
@@ -575,7 +600,7 @@ CREATE INDEX idx_Employees_Age ON Employees(Age);
 
 Resultado: Se ha creado un índice en la tabla "Employees" para la columna "Age".
 
-### 30. DROP INDEX
+### 31. DROP INDEX
 
 Este comando se utiliza para eliminar un índice existente en una tabla.
 
