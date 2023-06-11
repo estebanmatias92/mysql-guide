@@ -9,9 +9,8 @@ solucion
 curricular
 
 # Enabling Solutions
-!/modulo-1/**/solucion/
-#!/modulo-2/**/solucion/
+!/modulo-1/solucion/
+!/modulo-2/solucion/
+#!/modulo-3/**/solucion/
 
-
-modulo-2\solucion\solucion_guia2.db-journal
 
