@@ -63,7 +63,7 @@ VALUES
 -- Insertar datos en la tabla Customers
 INSERT INTO Customers (FirstName, LastName, Email)
 VALUES
-('Slavok', 'Sizek', 'slavok@gmail.com'),
+('Slavoj', 'Zizek', 'slavoj@gmail.com'),
 ('Alice', 'Johnson', 'alice@gmail.com'), 
 ('Yanis', 'Varoufakis', 'yanis@gmail.com'),
 ('Steve', 'Morris', 'steve@gmail.com'),

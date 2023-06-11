@@ -15,6 +15,17 @@ _Tabla "Employees":_
 | 3          | Alice     | Johnson  | 28  |
 | 4          | Bob       | Smith    | 45  |
 
+_Tabla "Customers":_
+
+| CustomerID | FirstName | LastName   | Email            |
+|------------|-----------|------------|------------------|
+| 1          | Slavoj    | Zizek      | <slavoj@gmail.com> |
+| 2          | Alice     | Johnson    | <alice@gmail.com>  |
+| 3          | Yanis     | Varoufakis | <yanis@gmail.com>  |
+| 4          | Steve     | Morris     | <steve@gmail.com>  |
+| 5          | Tom       | Bailey     | <thomas@gmail.com> |
+| 6          | Bob       | Smith      | <robert@gmail.com> |
+
 _Tabla "Products":_
 
 | ProductID | ProductName  | Price |
@@ -65,6 +76,8 @@ Este comando se utiliza para seleccionar datos de una base de datos. Los datos d
 
 _Ejemplo:_
 
+Imagina que deseas obtener la lista de todos los empleados de tu empresa, para ello utilizarías el comando SELECT.
+
 ```sql
 SELECT * FROM Employees;
 ```
@@ -84,6 +97,8 @@ Este comando se utiliza para filtrar registros.
 
 _Ejemplo:_
 
+Si quieres encontrar a los empleados que tienen más de 30 años, podrías utilizar la cláusula WHERE para filtrar los resultados.
+
 ```sql
 SELECT * FROM Employees WHERE Age > 30;
 ```
@@ -100,6 +115,8 @@ _Resultado:_
 Este comando se utiliza para insertar nuevos registros en una tabla.
 
 _Ejemplo:_
+
+Imagina que tienes un nuevo empleado que necesita ser agregado a tu base de datos, utilizarías INSERT INTO para agregar sus detalles a la tabla de empleados.
 
 ```sql
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Age) VALUES (5, 'Charlie', 'Brown', 22);
@@ -121,6 +138,8 @@ Este comando se utiliza para modificar los registros existentes en una tabla.
 
 _Ejemplo:_
 
+Si un empleado cambia su dirección de correo electrónico, necesitarías actualizar esa información en la base de datos, y para ello utilizarías el comando UPDATE.
+
 ```sql
 UPDATE Employees SET Age = 33 WHERE EmployeeID = 2;
 ```
@@ -140,6 +159,8 @@ _Resultado:_
 Este comando se utiliza para eliminar registros existentes de una tabla.
 
 _Ejemplo:_
+
+Supón que un empleado deja la empresa y quieres eliminar su registro de la base de datos, utilizarías el comando DELETE para hacerlo.
 
 ```sql
 DELETE FROM Employees WHERE EmployeeID = 5;
@@ -232,6 +253,8 @@ Este comando se utiliza para seleccionar registros que tienen campos coincidente
 
 _Ejemplo:_
 
+Supongamos que deseas unir las órdenes de compra con la información del empleado que las realizó, y los productos que contiene cada orden. Podrías hacerlo de la siguiente manera:
+
 ```sql
 SELECT Orders.OrderID, Employees.FirstName, Employees.LastName, OrderItems.ProductID, OrderItems.Quantity
 FROM ((Orders
@@ -255,6 +278,8 @@ Este comando se utiliza en conjunto con las funciones de agregación para agrupa
 
 _Ejemplo:_
 
+Imagina que necesitas conocer el número total de órdenes que cada empleado ha realizado. Podrías lograr esto de la siguiente manera:
+
 ```sql
 SELECT Employees.FirstName, Employees.LastName, COUNT(Orders.OrderID) as OrderCount 
 FROM Employees 
@@ -277,6 +302,8 @@ Este comando se utiliza para filtrar los resultados de una consulta que incluye 
 
 _Ejemplo:_
 
+Supongamos que quieres identificar a los empleados que han realizado más de una orden. Podrías hacerlo así:
+
 ```sql
 SELECT Employees.FirstName, Employees.LastName, COUNT(Orders.OrderID) as OrderCount 
 FROM Employees 
@@ -298,6 +325,8 @@ Este comando se utiliza para ordenar el conjunto de resultados en orden ascenden
 
 _Ejemplo:_
 
+Si quieres listar a todos los empleados ordenados por su edad en orden descendente, podrías hacerlo de la siguiente manera:
+
 ```sql
 SELECT * FROM Employees ORDER BY Age DESC;
 ```
@@ -316,6 +345,8 @@ _Resultado:_
 Este comando se utiliza para retornar solo registros distintos (diferentes) en el conjunto de resultados.
 
 _Ejemplo:_
+
+Imagina que quieres saber todas las edades distintas que tienen tus empleados. Podrías lograrlo así:
 
 ```sql
 SELECT DISTINCT Age FROM Employees;
@@ -336,6 +367,8 @@ Esta función se utiliza para retornar el número de filas que coinciden con un 
 
 _Ejemplo:_
 
+Si necesitas saber cuántos empleados tienen más de 30 años, podrías hacerlo de la siguiente manera:
+
 ```sql
 SELECT COUNT(*) FROM Employees WHERE Age > 30;
 ```
@@ -351,6 +384,8 @@ _Resultado:_
 Esta función se utiliza para retornar el valor promedio de una columna numérica.
 
 _Ejemplo:_
+
+Supongamos que quieres conocer la edad promedio de tus empleados. Podrías hacerlo así:
 
 ```sql
 SELECT AVG(Age) FROM Employees;
@@ -368,6 +403,8 @@ Estas funciones se utilizan para retornar el valor mínimo y máximo de una colu
 
 _Ejemplo:_
 
+Si quieres saber cuál es la edad del empleado más joven y del más viejo, podrías hacerlo de la siguiente manera:
+
 ```sql
 SELECT MIN(Age), MAX(Age) FROM Employees;
 ```
@@ -384,6 +421,8 @@ Esta función se utiliza para retornar la suma total de una columna numérica.
 
 _Ejemplo:_
 
+Imagina que necesitas saber cuántos productos del tipo 1 se han vendido en total. Podrías hacerlo así:
+
 ```sql
 SELECT SUM(Quantity) FROM OrderItems WHERE ProductID = 1;
 ```
@@ -399,6 +438,8 @@ _Resultado:_
 Este comando se utiliza en una cláusula WHERE para buscar un patrón especificado en una columna.
 
 _Ejemplo:_
+
+Si quieres encontrar a todos los empleados cuyo nombre comienza con 'J', podrías hacerlo de la siguiente manera:
 
 ```sql
 SELECT * FROM Employees WHERE FirstName LIKE 'J%';
@@ -417,6 +458,8 @@ Este comando se utiliza para permitir múltiples valores en una cláusula WHERE.
 
 _Ejemplo:_
 
+Si quieres encontrar a todos los empleados cuyo nombre comienza con 'J', podrías hacerlo de la siguiente manera:
+
 ```sql
 SELECT * FROM Employees WHERE EmployeeID IN (1, 2);
 ```
@@ -434,6 +477,8 @@ Este comando se utiliza para seleccionar valores dentro de un rango. Los valores
 
 _Ejemplo:_
 
+Si necesitas encontrar a todos los empleados cuya edad está entre 30 y 40 años, podrías hacerlo de la siguiente manera:
+
 ```sql
 SELECT * FROM Employees WHERE Age BETWEEN 30 AND 40;
 ```
@@ -450,6 +495,8 @@ _Resultado:_
 Este comando se utiliza para combinar el conjunto de resultados de dos o más consultas SELECT. La UNION elimina los registros duplicados (donde todas las columnas en los resultados son idénticas).
 
 _Ejemplo:_
+
+Imagina que quieres obtener una lista de todos los nombres de los empleados y los clientes, sin repetir ningún nombre. Podrías lograrlo así:
 
 ```sql
 SELECT FirstName FROM Employees 
@@ -474,6 +521,8 @@ Este comando se utiliza para combinar el conjunto de resultados de dos o más co
 
 _Ejemplo:_
 
+Imagina que quieres obtener una lista de todos los nombres de los empleados y los clientes, sin repetir ningún nombre. Podrías lograrlo así:
+
 ```sql
 SELECT FirstName FROM Employees 
 UNION ALL
@@ -493,7 +542,7 @@ _Resultado:_
 | Alice     |
 | Bob       |
 
-### 23. SUBCONSULTA
+### 23. SUBCONSULTA (Sub-Query)
 
 Una subconsulta es una consulta que se encuentra dentro de otra consulta. Se pueden utilizar en SELECT, INSERT, UPDATE, DELETE y en la cláusula WHERE para definir criterios más avanzados.
 
@@ -524,6 +573,8 @@ En SQL, NULL es el término usado para representar un valor perdido o desconocid
 
 _Ejemplo:_
 
+Si quieres encontrar a todos los empleados cuyo apellido no está registrado, podrías hacerlo así:
+
 ```sql
 SELECT * FROM Employees WHERE LastName IS NULL;
 ```
@@ -538,6 +589,8 @@ Este comando se utiliza para agregar, eliminar/desactivar o modificar columnas e
 
 _Ejemplo:_
 
+Si quieres encontrar a todos los empleados cuyo apellido no está registrado, podrías hacerlo así:
+
 ```sql
 ALTER TABLE Employees ADD Email text;
 ```
@@ -550,6 +603,8 @@ Este comando se utiliza para eliminar una tabla existente en una base de datos.
 
 _Ejemplo:_
 
+Supongamos que quieres eliminar la tabla de clientes. Podrías hacerlo así:
+
 ```sql
 DROP TABLE Customers;
 ```
@@ -561,6 +616,8 @@ Resultado: La tabla "Customers" ha sido eliminada de la base de datos.
 Este comando se utiliza para crear una nueva base de datos en SQL.
 
 _Ejemplo:_
+
+Si necesitas crear una nueva base de datos llamada 'TestDatabase', podrías hacerlo de la siguiente manera:
 
 ```sql
 CREATE DATABASE TestDatabase;
@@ -575,6 +632,8 @@ Este comando se utiliza para seleccionar una base de datos SQL específica en la
 Nota: Este comando es soportado en sistemas de gestión de bases de datos como MySQL y SQL Server, pero no es soportado en SQLite.
 
 _Ejemplo:_
+
+Imagina que quieres empezar a trabajar en la base de datos 'TestDatabase'. Podrías hacerlo así:
 
 ```sql
 USE TestDatabase;
