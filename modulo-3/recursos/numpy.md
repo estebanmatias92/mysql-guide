@@ -58,7 +58,7 @@ En NumPy, la creación de arrays es sencilla.
 Aquí hay un ejemplo de cómo **crear un array de una dimensión**:
 
 ```python
-a = np.array([1, 2, 3]) # Crea un array 'a', con los valores 1, 2 y 3
+a = np.array([1, 2, 3])    # Crea un array 'a', con los valores 1, 2 y 3
 print(a)
 ```
 
@@ -78,7 +78,7 @@ Aquí hay un ejemplo de cómo **sumar dos arrays**:
 
 a = np.array([1, 2, 3])
 b = np.array([4, 5, 6])
-c = a + b               # Suma los arrays 'a' y 'b' para producir el array 'c'
+c = a + b   # Suma los arrays 'a' y 'b' para producir el array 'c'
 print(c)
 ```
 
@@ -132,7 +132,7 @@ Aquí hay un ejemplo de cómo **cambiar la forma de un array** para que tenga do
 
 ```python
 a = np.array([1, 2, 3, 4])
-b = a.reshape(2, 2)     # Cambia la forma del array 'a' para que sea un array de 2x2, 'b'
+b = a.reshape(2, 2)    # Cambia la forma del array 'a' para que sea un array de 2x2, 'b'
 print(b)
 ```
 
@@ -151,7 +151,7 @@ Aquí hay un ejemplo de cómo se puede **sumar un número a todos los elementos 
 
 ```python
 a = np.array([1, 2, 3])
-b = a + 5               # Suma 5 a cada elemento del array 'a' para producir el array 'b'
+b = a + 5    # Suma 5 a cada elemento del array 'a' para producir el array 'b'
 print(b)
 ```
 
