@@ -49,7 +49,54 @@ Resultado:
  [4 5 6]]
 ```
 
-## NumPy - Funciones/Operaciones
+#### E/S con NumPy
+
+NumPy proporciona varias funciones para guardar y cargar datos de y hacia el disco.
+
+Aquí hay un ejemplo de cómo puedes **guardar un array en un archivo binario en formato .npy y luego cargarlo** de nuevo:
+
+```python
+# Crear un array
+a = np.array([1, 2, 3, 4, 5, 6])
+
+# Guardar el array en un archivo .npy
+np.save('array_a.npy', a)
+
+# Cargar el array desde el archivo
+b = np.load('array_a.npy')
+
+print(b)
+```
+
+Resultado:
+
+```bash
+[1 2 3 4 5 6]
+```
+
+También puedes guardar y cargar texto con las funciones `np.savetxt` y `np.loadtxt`.
+
+Aquí hay un ejemplo de cómo puedes **guardar un array en un archivo de texto y luego** cargarlo de nuevo:
+
+```python
+# Guardar el array en un archivo de texto
+np.savetxt('array_a.txt', a)
+
+# Cargar el array desde el archivo de texto
+c = np.loadtxt('array_a.txt')
+
+print(c)
+```
+
+Resultado:
+
+```bash
+[1. 2. 3. 4. 5. 6.]
+```
+
+Estas funciones te permiten guardar tus datos y cargarlos más tarde, lo cual es especialmente útil cuando trabajas con grandes conjuntos de datos.
+
+## NumPy - Funciones/Operaciones/Tecnicas
 
 ### Creación de arrays
 
@@ -161,6 +208,63 @@ Resultado:
 [6 7 8]
 ```
 
-### Más allá de lo básico
+### Vectorización
 
-Una vez que te sientas cómodo con los conceptos básicos de NumPy, puedes empezar a explorar conceptos más avanzados. Por ejemplo, la vectorización te permite realizar operaciones en arrays enteros en lugar de en elementos individuales, lo que puede hacer que tu código sea más eficiente y más fácil de leer. Las vistas y las copias son dos formas diferentes de acceder a los datos de los arrays, y entender la diferencia entre ellas puede ayudarte a evitar errores sutiles.
+La vectorización es un poderoso concepto en NumPy que permite realizar **operaciones en arrays enteros en lugar de en elementos individuales**. Esto puede hacer que tu código sea más eficiente y más fácil de leer.
+
+Aquí hay un ejemplo de cómo puedes **sumar dos arrays utilizando la vectorización**:
+
+```python
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+c = a + b
+print(c)
+```
+
+Resultado:
+
+```bash
+[5 7 9]
+```
+
+En este ejemplo, `a + b` suma los dos arrays elemento por elemento, lo que es mucho más eficiente que hacer un bucle para sumar los elementos individualmente.
+
+### Vistas
+
+Una vista en NumPy es una forma de **acceder a los datos de un array sin hacer una copia**. Esto puede ser útil para ahorrar memoria cuando estás trabajando con arrays grandes.
+
+Aquí hay un ejemplo de cómo puedes crear una **vista de un array**:
+
+```python
+a = np.array([1, 2, 3, 4, 5, 6])
+b = a[2:5]
+print(b)
+```
+
+Resultado:
+
+```bash
+[3 4 5]
+```
+
+En este ejemplo, `b` es una vista de `a`. Si cambias los datos en `b`, también cambiarán en `a`.
+
+### Copias
+
+A diferencia de las vistas, una copia de un array en NumPy es una nueva matriz que contiene los mismos datos que el array original. Si cambias los datos en la copia, no afectará al array original.
+
+Aquí hay un ejemplo de cómo puedes hacer una **copia de un array**:
+
+```python
+a = np.array([1, 2, 3, 4, 5, 6])
+b = a.copy()
+print(b)
+```
+
+Resultado:
+
+```bash
+[1 2 3 4 5 6]
+```
+
+En este ejemplo, `b` es una copia de `a`. Si cambias los datos en `b`, no afectará a `a`.
