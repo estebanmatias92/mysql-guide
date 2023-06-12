@@ -1,0 +1,166 @@
+# Guía de NumPy
+
+## Introducción y Contexto
+
+**NumPy es una biblioteca** para el lenguaje de programación Python que **proporciona soporte para arrays y matrices grandes y multidimensionales**, junto con una gran **colección de funciones** matemáticas de alto nivel **para operar con estos arrays**.
+
+## Preparación de Datos para trabajar
+
+### Instalación y preparación de herramientas
+
+Para instalar NumPy, puedes usar pip, que es el instalador de paquetes de Python. En tu terminal, simplemente ejecuta:
+
+```bash
+pip install numpy
+```
+
+Para usar NumPy en tu script de Python, debes importarlo. La convención común es importarlo bajo el alias `np`:
+
+```python
+import numpy as np
+```
+
+### Creación/obtención de datos para la guía
+
+Vamos a crear algunos arrays NumPy para usar en nuestros ejemplos. En NumPy, puedes crear un array utilizando la función `np.array()`, pasando una lista como argumento:
+
+```python
+a = np.array([1, 2, 3])
+print(a)
+```
+
+Resultado:
+
+```bash
+[1 2 3]
+```
+
+También puedes crear un **array de dos dimensiones (una matriz)** pasando una lista de listas:
+
+```python
+b = np.array([[1, 2, 3], [4, 5, 6]])
+print(b)
+```
+
+Resultado:
+
+```bash
+[[1 2 3]
+ [4 5 6]]
+```
+
+## NumPy - Funciones/Operaciones
+
+### Creación de arrays
+
+En NumPy, la creación de arrays es sencilla.
+
+Aquí hay un ejemplo de cómo **crear un array de una dimensión**:
+
+```python
+a = np.array([1, 2, 3]) # Crea un array 'a', con los valores 1, 2 y 3
+print(a)
+```
+
+Resultado:
+
+```bash
+[1 2 3]
+```
+
+### Operaciones básicas
+
+Las operaciones matemáticas básicas en NumPy son elementales, lo que significa que se realizan elemento por elemento.
+
+Aquí hay un ejemplo de cómo **sumar dos arrays**:
+
+```python
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+c = a + b               # Suma los arrays 'a' y 'b' para producir el array 'c'
+print(c)
+```
+
+Resultado:
+
+```bash
+[5 7 9]
+```
+
+### Indexación y slicing
+
+La indexación y el slicing en NumPy funcionan de manera similar a como lo hacen en las listas de Python.
+
+Aquí hay un ejemplo de cómo **acceder al primer elemento** de un array:
+
+```python
+a = np.array([1, 2, 3])
+first_element = a[0]    # Obtiene el primer elemento del array 'a'
+print(first_element)
+```
+
+Resultado:
+
+```bash
+1
+```
+
+### Funciones de agregación
+
+NumPy proporciona una serie de funciones de agregación, como `np.sum`, `np.min`, `np.max`, `np.mean`, y muchas más.
+
+Aquí hay un ejemplo de cómo calcular la **suma de un array**:
+
+```python
+a = np.array([1, 2, 3])
+sum_of_a = np.sum(a)    # Calcula la suma del array 'a'
+print(sum_of_a)
+```
+
+Resultado:
+
+```bash
+6
+```
+
+### Manipulación de formas
+
+Puedes cambiar la forma de un array en NumPy utilizando la función `reshape`.
+
+Aquí hay un ejemplo de cómo **cambiar la forma de un array** para que tenga dos filas y dos columnas:
+
+```python
+a = np.array([1, 2, 3, 4])
+b = a.reshape(2, 2)     # Cambia la forma del array 'a' para que sea un array de 2x2, 'b'
+print(b)
+```
+
+Resultado:
+
+```bash
+[[1 2]
+ [3 4]]
+```
+
+### Broadcasting
+
+El broadcasting es una característica poderosa que permite a NumPy trabajar con arrays de diferentes formas al realizar operaciones aritméticas.
+
+Aquí hay un ejemplo de cómo se puede **sumar un número a todos los elementos de un array**:
+
+```python
+a = np.array([1, 2, 3])
+b = a + 5               # Suma 5 a cada elemento del array 'a' para producir el array 'b'
+print(b)
+```
+
+Resultado:
+
+```bash
+[6 7 8]
+```
+
+### Más allá de lo básico
+
+Una vez que te sientas cómodo con los conceptos básicos de NumPy, puedes empezar a explorar conceptos más avanzados. Por ejemplo, la vectorización te permite realizar operaciones en arrays enteros en lugar de en elementos individuales, lo que puede hacer que tu código sea más eficiente y más fácil de leer. Las vistas y las copias son dos formas diferentes de acceder a los datos de los arrays, y entender la diferencia entre ellas puede ayudarte a evitar errores sutiles.
