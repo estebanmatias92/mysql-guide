@@ -83,7 +83,7 @@ df['column'] = df['column'] * 2
 df.to_csv('new_file.csv', index=False)
 ```
 
-## Cheatsheet/Referencia Lista de Métodos/Queries/Comandos
+## Pandas - Operaciones/Metodos/Conceptos
 
 ### Creación de Series y DataFrames
 

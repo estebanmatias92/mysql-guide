@@ -96,7 +96,7 @@ Resultado:
 
 Estas funciones te permiten guardar tus datos y cargarlos más tarde, lo cual es especialmente útil cuando trabajas con grandes conjuntos de datos.
 
-## NumPy - Funciones/Operaciones/Tecnicas
+## NumPy - - Operaciones/Metodos/Conceptos
 
 ### Creación de arrays
 
