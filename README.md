@@ -80,7 +80,7 @@
 
 ### Trabajo en Clase
 
-- [Guia 3: Numpy, Pandas - Introduccion al Analisis de Datos](#trabajo-en-clase-2)
+- [Guia 3: NumPy & Pandas - Introducción](https://docs.google.com/document/d/1oaUQti8OP20oLfckCctMyJn8kZo5vw4H_ySu_wovmHA/edit?usp=sharing)
 
 ## Modulo 4 - Desarrollo de Aplicacion
 
