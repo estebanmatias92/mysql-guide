@@ -8,6 +8,11 @@
 - [Manual SQL](https://www.1keydata.com/es/sql/)
 - [Manual SQL (PostgreSQL)](https://www.um.es/geograf/sigmur/sigpdf/postgresql.pdf)
 - [Aprende SQL ahora! - MYSQL (HolaMundo)](https://www.youtube.com/watch?v=uUdKAYl-F7g)
+- [Que es Ciencia de Datos - Roadmap (Platzi)](https://www.youtube.com/watch?v=PpknKpjrM18)
+- [Numpy: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-NumPy-en-Espanol-180f7d51-b297-4aea-b61e-34ef867ca6fb)
+- [Numpy: Video Serie](https://www.youtube.com/watch?v=nN_TYjT_KiI&list=PLbi7Cp2PebjaW1eYFXklBWyouayV6EH3R)
+- [Pandas: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-Pandas-en-Espanol-d21a300b-571d-4704-b81e-a7ba553b185a)
+- [Pandas: Video Serie](https://www.youtube.com/watch?v=LnH_STJ2GXo&list=PLVs9JdE6ZZh0RBT7lIPxUkcTmAUhMEimn&index=1)
 
 ## Modulo 1 - Python: Programacion Orientada a Objetos
 
@@ -35,11 +40,11 @@
 ### Demo
 
 - [demo-script.sql](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/demo/demo-script.sql)
+- [SQL - Consultas](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/queries.md)
 
 ### Recursos
 
 - [Base de Datos - Conceptos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/concepts.md)
-- [SQL - Consultas](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/queries.md)
 - [SQLite3 - Cheatsheet](https://www.sqlitetutorial.net/)
 - [Curso de SQL desde CERO (Soy Dalto)](https://www.youtube.com/watch?v=DFg1V-rO6Pg)
 
@@ -51,11 +56,31 @@
 
 ### Demo
 
+- [sales.db](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/sales.db)
+- [Numpy, Pandas - Carga y Manipulacion de Datos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/demo-sales.md)
+
 ### Recursos
+
+#### Numpy
+
+- [Numpy: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-NumPy-en-Espanol-180f7d51-b297-4aea-b61e-34ef867ca6fb)
+- [Numpy: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/numpy.md)
+- [Numpy: Cheatsheet](https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+
+#### Pandas
+
+- [Pandas: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-Pandas-en-Espanol-d21a300b-571d-4704-b81e-a7ba553b185a)
+- [Pandas: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/pandas.md)
+- [Pandas: Cheatsheet](https://www.paradigmadigital.com/wp-content/uploads/2019/02/Pandas_cheatsheet.pdf)
+
+#### Matplotlib
+
+- [Matplotlib: Guia Rapida](https://deepnote.com/@anthonymanotoa/Tutorial-de-Matplolib-en-Espanol-a8031a06-641a-4cef-98ff-a0664ac0c659)
+- [Matplotlib: Cheatsheet](https://www.datacamp.com/cheat-sheet/matplotlib-cheat-sheet-plotting-in-python)
 
 ### Trabajo en Clase
 
-- [Guia 3: Numpy, Pandas - Introduccion al Analisis de Datos]()
+- [Guia 3: Numpy, Pandas - Introduccion al Analisis de Datos](#trabajo-en-clase-2)
 
 ## Modulo 4 - Desarrollo de Aplicacion
 

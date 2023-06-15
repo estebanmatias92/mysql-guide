@@ -91,7 +91,9 @@ Ya hemos visto cómo crear Series y DataFrames en la sección anterior. Recuerda
 
 ### Visualización de datos
 
-Pandas se integra bien con Matplotlib para crear gráficos a partir de DataFrames y Series. Aquí hay un ejemplo de cómo puedes visualizar los datos de un DataFrame:
+Pandas se integra bien con Matplotlib para crear gráficos a partir de DataFrames y Series.
+
+Aquí hay un ejemplo de cómo puedes visualizar los datos de un DataFrame:
 
 ```python
 import matplotlib.pyplot as plt
@@ -109,7 +111,9 @@ Resultado: Se mostrará un gráfico de barras con los datos del DataFrame.
 
 ### Operaciones básicas
 
-Las operaciones básicas en Pandas son similares a las de NumPy, pero están diseñadas para trabajar con DataFrames y Series. Aquí hay un ejemplo de cómo sumar dos Series:
+Las operaciones básicas en Pandas son **similares a las de NumPy**, pero están diseñadas para trabajar con DataFrames y Series.
+
+Aquí hay un ejemplo de cómo sumar dos Series:
 
 ```python
 a = pd.Series([1, 2, 3])
@@ -129,7 +133,9 @@ dtype: int64
 
 ### Indexación y slicing
 
-La indexación y el slicing en Pandas funcionan de manera similar a como lo hacen en las listas de Python, pero también puedes indexar por etiqueta utilizando el índice del DataFrame. Aquí hay un ejemplo de cómo acceder a una columna de un DataFrame:
+La **indexación y el slicing en Pandas funcionan de manera similar a como lo hacen en las listas de Python**, pero también puedes indexar por etiqueta utilizando el índice del DataFrame.
+
+Aquí hay un ejemplo de cómo acceder a una columna de un DataFrame:
 
 ```python
 data = {
@@ -153,7 +159,9 @@ Name: apples, dtype: int64
 
 ### Funciones de agregación
 
-Pandas proporciona una serie de funciones de agregación, como `mean`, `sum`, `min`, `max`, y muchas más. Aquí hay un ejemplo de cómo calcular la suma de una columna de un DataFrame:
+Pandas proporciona una serie de funciones de agregación, como `mean`, `sum`, `min`, `max`, y muchas más.
+
+Aquí hay un ejemplo de cómo calcular la suma de una columna de un DataFrame:
 
 ```python
 data = {
@@ -173,7 +181,9 @@ Resultado:
 
 ### Manipulación de formas
 
-Puedes cambiar la forma de un DataFrame en Pandas utilizando funciones como `pivot`. Aquí hay un ejemplo de cómo pivotar un DataFrame:
+Puedes **cambiar la forma de un DataFrame** en Pandas utilizando funciones como `pivot`.
+
+Aquí hay un ejemplo de cómo pivotar un DataFrame:
 
 ```python
 data = {
@@ -199,7 +209,9 @@ Dallas      80      200
 
 #### Manejo de datos faltantes
 
-En la vida real, los datos a menudo tienen valores faltantes. Pandas proporciona métodos para manejar los datos faltantes de manera eficiente. Aquí hay un ejemplo de cómo puedes rellenar los valores faltantes con un valor específico:
+En la vida real, los datos a menudo tienen valores faltantes. Pandas proporciona métodos para manejar los datos faltantes de manera eficiente.
+
+Aquí hay un ejemplo de cómo puedes rellenar los valores faltantes con un valor específico:
 
 ```python
 df = pd.DataFrame({
@@ -222,7 +234,9 @@ Resultado:
 
 #### Combinación de DataFrames
 
-Pandas proporciona varias formas de combinar DataFrames, incluyendo `merge`, `join`, y `concat`. Aquí hay un ejemplo de cómo puedes unir dos DataFrames en base a una columna común:
+Pandas proporciona varias formas de combinar DataFrames, incluyendo `merge`, `join`, y `concat`.
+
+Aquí hay un ejemplo de cómo puedes unir dos DataFrames en base a una columna común:
 
 ```python
 df1 = pd.DataFrame({
@@ -252,7 +266,9 @@ Resultado:
 
 #### Agrupamiento y agregación de datos
 
-El agrupamiento y la agregación de datos son técnicas poderosas que te permiten realizar análisis de datos más complejos. Aquí hay un ejemplo de cómo puedes agrupar un DataFrame por una columna y calcular la suma de las otras columnas para cada grupo:
+El agrupamiento y la agregación de datos son técnicas poderosas que te permiten realizar análisis de datos más complejos.
+
+Aquí hay un ejemplo de cómo puedes agrupar un DataFrame por una columna y calcular la suma de las otras columnas para cada grupo:
 
 ```python
 df = pd.DataFrame({
