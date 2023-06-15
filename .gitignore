@@ -11,6 +11,6 @@ curricular
 # Enabling Solutions
 !/modulo-1/solucion/
 !/modulo-2/solucion/
-#!/modulo-3/**/solucion/
+!/modulo-3/solucion/
 
 
