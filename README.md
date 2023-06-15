@@ -56,21 +56,21 @@
 
 ### Demo
 
-- [sales.db](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/sales.db)
-- [Numpy, Pandas - Carga y Manipulacion de Datos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/demo-sales.md)
+- ❌ [Numpy, Pandas - Carga y Manipulacion de Datos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/demo-sales.md)
+- ❌ [sales.db](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/sales.db)
+- ✔️ [Numpy: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/numpy.md)
+- :heavy_check_mark: [Pandas: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/pandas.md)
 
 ### Recursos
 
 #### Numpy
 
 - [Numpy: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-NumPy-en-Espanol-180f7d51-b297-4aea-b61e-34ef867ca6fb)
-- [Numpy: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/numpy.md)
 - [Numpy: Cheatsheet](https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
 #### Pandas
 
 - [Pandas: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-Pandas-en-Espanol-d21a300b-571d-4704-b81e-a7ba553b185a)
-- [Pandas: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/pandas.md)
 - [Pandas: Cheatsheet](https://www.paradigmadigital.com/wp-content/uploads/2019/02/Pandas_cheatsheet.pdf)
 
 #### Matplotlib
