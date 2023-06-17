@@ -14,7 +14,7 @@ El problema parece ser exclusivo de Windows y como agrega (o mejor dicho, no agr
 
 Todos los Windows tiene una ventana o seccion llamada "agregar o quitar programas" ("add or remove programs" si lo tienen en ingles), es ahi donde pueden desinstalar Python y Python IDLE.
 
-### Segundo: Instalar una nueva instalacion
+### Segundo: Instalar de nuevo
 
 Usen el instalar que corresponda segun su version de Windows y la arquitectura de su maquina.
 Instaladores:
