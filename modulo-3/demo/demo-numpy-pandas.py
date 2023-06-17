@@ -1,6 +1,7 @@
-import numpy as np 
+import numpy as np
+#import pandas as pd
 
 # Creacion de array
-mi_tensor = np.array([1, 2, 3])
+arr = np.array([1, 2, 3])
 
-print(mi_tensor)
+print(arr)
