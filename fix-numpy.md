@@ -31,7 +31,7 @@ Instaladores:
 
 ### Tercero: Añadir los directorios de Python al sistema
 
-Ahora que el sistema operativo tiene instalado Python, **hace falta hacerle saber en que directorios se encuentra el programa/ejecutable de Python (python.exe) y sus carpetas asociadas**. Para eso vamos añadir la direccion donde esta instalado python y la direccion de sus "Scripts" a las "**variables de entorno del sistema**"
+Ahora que el sistema operativo tiene instalado Python, **hace falta hacerle saber, en que directorios se encuentra el programa/ejecutable de Python (python.exe) y sus carpetas asociadas**. Para eso vamos añadir la direccion donde esta instalado y la direccion de sus "Scripts" a las "**variables de entorno del sistema**"
 
 - [Como Añadir el directorio "Scripts" de Python a las variables de entorno en Windows (ChatGPT)](https://chat.openai.com/share/8631e698-9b7e-4a65-9857-be7fd950b1fd)
 - [Como Añadir el ejecutables Python.exe y el directorio "Scripts" a las variables de entorno en Windows (Youtube)](https://www.youtube.com/watch?v=0bDRUOpec4c)
