@@ -9,9 +9,9 @@
 - [Manual SQL (PostgreSQL)](https://www.um.es/geograf/sigmur/sigpdf/postgresql.pdf)
 - [Aprende SQL ahora! - MYSQL (HolaMundo)](https://www.youtube.com/watch?v=uUdKAYl-F7g)
 - [Que es Ciencia de Datos - Roadmap (Platzi)](https://www.youtube.com/watch?v=PpknKpjrM18) 📌
-- [Numpy: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-NumPy-en-Espanol-180f7d51-b297-4aea-b61e-34ef867ca6fb)
+- [Numpy: Guia](https://aprendeconalf.es/docencia/python/manual/numpy/)
 - [Numpy: Video Serie](https://www.youtube.com/watch?v=nN_TYjT_KiI&list=PLbi7Cp2PebjaW1eYFXklBWyouayV6EH3R) 📌
-- [Pandas: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-Pandas-en-Espanol-d21a300b-571d-4704-b81e-a7ba553b185a)
+- [Pandas: Guia](https://aprendeconalf.es/docencia/python/manual/pandas/)
 - [Pandas: Video Serie](https://www.youtube.com/watch?v=LnH_STJ2GXo&list=PLVs9JdE6ZZh0RBT7lIPxUkcTmAUhMEimn&index=1) 📌
 
 ## Modulo 1 - Python: Programacion Orientada a Objetos
@@ -67,17 +67,17 @@
 
 #### Numpy
 
-- [Numpy: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-NumPy-en-Espanol-180f7d51-b297-4aea-b61e-34ef867ca6fb) 📌
+- [Numpy: Guia](https://aprendeconalf.es/docencia/python/manual/numpy/) 📌
 - [Numpy: Cheatsheet](https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
 #### Pandas
 
-- [Pandas: Guia](https://deepnote.com/@anthonymanotoa/Tutorial-de-Pandas-en-Espanol-d21a300b-571d-4704-b81e-a7ba553b185a) 📌
+- [Pandas: Guia](https://aprendeconalf.es/docencia/python/manual/pandas/) 📌
 - [Pandas: Cheatsheet](https://www.paradigmadigital.com/wp-content/uploads/2019/02/Pandas_cheatsheet.pdf)
 
 #### Matplotlib
 
-- [Matplotlib: Guia Rapida](https://deepnote.com/@anthonymanotoa/Tutorial-de-Matplolib-en-Espanol-a8031a06-641a-4cef-98ff-a0664ac0c659)
+- [Matplotlib: Guia Rapida](https://aprendeconalf.es/docencia/python/manual/matplotlib/)
 - [Matplotlib: Cheatsheet](https://www.datacamp.com/cheat-sheet/matplotlib-cheat-sheet-plotting-in-python)
 
 ### Trabajo en Clase
