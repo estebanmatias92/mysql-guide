@@ -1,7 +1,4 @@
-#import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
-from mpl_toolkits.mplot3d import Axes3D
 
 # Creacion de Array
 my_array = np.array([1, 2, 3])
@@ -34,9 +31,9 @@ my_tensor = np.array([
     ]
 ])
 """
-my_tensor = np.arange(27).reshape(3, 3, 3)
+my_tensor = np.arange(1, 28).reshape(3, 3, 3)
 print("\n3D Array (tensor):\n", my_tensor)
-
+"""
 print("\nSlices:")
 print("\nBack:\n", my_tensor[0,:,:])
 print("\nMiddle:\n", my_tensor[1,:,:])
@@ -51,3 +48,11 @@ bottom_side = my_tensor[:,0,:]
 top_side = my_tensor[:,2,:]
 print("\n\nBottom:\n", bottom_side)
 print("\nTop:\n", top_side)
+
+#board = np.random.choice(["X", "O"], size=(3, 3))
+#print("\n\n", board)   
+"""
+
+
+print("Valor 23 en tensor: ", my_tensor[2, 1, 1]) 
+
