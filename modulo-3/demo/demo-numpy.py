@@ -54,5 +54,4 @@ print("\nTop:\n", top_side)
 """
 
 
-print("Valor 23 en tensor: ", my_tensor[2, 1, 1]) 
-
+print("Valor 23 en tensor: ", my_tensor[2, 1, 1])

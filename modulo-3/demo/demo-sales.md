@@ -2,7 +2,7 @@
 
 ## Introduccion del Dataset
 
-Utilizaremos una base de datos de ventas con las siguientes tablas: Customers, Products, Orders y OrderItems. [**Schema SQL**](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/sales.sql)
+Utilizaremos una base de datos de ventas con las siguientes tablas: Customers, Products, Orders y OrderItems. [**Schema SQL**](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/data/sales.sql)
 
 ### Customers
 
@@ -44,10 +44,10 @@ Para cargar los datos de la base de datos ([sales.db](https://github.com/esteban
 
 ```python
 import sqlite3
-import pygame
+import pandas as pd
 
 # Conectar a la base de datos
-conn = sqlite3.connect('sales.db')
+conn = sqlite3.connect('data/sales.db')
 
 # Cargar los datos en un DataFrame
 df_customers = pd.read_sql_query("SELECT * FROM Customers", conn)

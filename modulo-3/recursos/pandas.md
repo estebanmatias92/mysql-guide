@@ -70,17 +70,17 @@ Resultado:
 
 Pandas proporciona funciones para leer y escribir DataFrames de/a varios formatos de archivos, incluyendo CSV, Excel, SQL, etc.
 
-Aquí hay un ejemplo de cómo puedes **leer un DataFrame de un archivo CSV y luego escribirlo en un nuevo archivo CSV**:
+Aquí hay un ejemplo de cómo puedes **leer un DataFrame de un [archivo CSV](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/data/avocado.csv) y luego escribirlo en un nuevo archivo CSV**:
 
 ```python
 # Leer de un archivo CSV
-df = pd.read_csv('file.csv')
+df = pd.read_csv('avocado.csv')
 
 # Realizar algunas operaciones...
-df['column'] = df['column'] * 2
+df['TotalPrice'] = df['AveragePrice'] * df['Total Volume']
 
 # Escribir en un nuevo archivo CSV
-df.to_csv('new_file.csv', index=False)
+df.to_csv('avocado_total_prices.csv', index=False)
 ```
 
 ## Pandas - Operaciones/Metodos/Conceptos
