@@ -56,10 +56,7 @@
 
 ### Demo
 
-<!--
-- [Numpy, Pandas - Carga y Manipulacion de Datos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/demo-sales.md)
-- [sales.db](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/sales.db)
--->
+- [Numpy, Pandas - Carga, Manipulacion de Datos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/demo/demo-sales.ipynb)
 - [Numpy: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/numpy.md)
 - [Pandas: Guia Rapida](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-3/recursos/pandas.md)
 
