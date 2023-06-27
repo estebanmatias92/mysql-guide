@@ -285,8 +285,8 @@ print(grouped)
 Resultado (los números variarán debido a la generación aleatoria):
 
 ```bash
-            C         D
-A                      
-bar -0.577087  0.666343
-foo  0.721555 -0.614740
+                     B         C         D
+A                                         
+bar        onethreetwo -1.388740 -2.774201
+foo  onetwotwoonethree  0.677951 -1.662800
 ```
