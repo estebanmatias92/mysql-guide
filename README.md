@@ -74,7 +74,7 @@
 
 #### Matplotlib
 
-- [Matplotlib: Guia Rapida](https://aprendeconalf.es/docencia/python/manual/matplotlib/)
+- [Matplotlib: Guia](https://aprendeconalf.es/docencia/python/manual/matplotlib/)
 - [Matplotlib: Cheatsheet](https://www.datacamp.com/cheat-sheet/matplotlib-cheat-sheet-plotting-in-python)
 
 ### Trabajo en Clase
