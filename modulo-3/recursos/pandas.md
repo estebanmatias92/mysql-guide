@@ -74,13 +74,13 @@ Aquí hay un ejemplo de cómo puedes **leer un DataFrame de un [archivo CSV](htt
 
 ```python
 # Leer de un archivo CSV
-df = pd.read_csv('avocado.csv')
+df = pd.read_csv('data/avocado.csv')
 
 # Realizar algunas operaciones...
 df['TotalPrice'] = df['AveragePrice'] * df['Total Volume']
 
 # Escribir en un nuevo archivo CSV
-df.to_csv('avocado_total_prices.csv', index=False)
+df.to_csv('data/avocado_total_prices.csv', index=False)
 ```
 
 ## Pandas - Operaciones/Metodos/Conceptos

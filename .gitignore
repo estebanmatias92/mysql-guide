@@ -171,4 +171,11 @@ curricular
 !/modulo-2/solucion/
 !/modulo-3/solucion/
 
+# Sqlite3
+*.sqbpro
 
+# Data
+data/*.npy
+
+# Testing
+test.txt

@@ -60,10 +60,10 @@ Aquí hay un ejemplo de cómo puedes **guardar un array en un archivo binario en
 a = np.array([1, 2, 3, 4, 5, 6])
 
 # Guardar el array en un archivo .npy
-np.save('array_a.npy', a)
+np.save('data/array_a.npy', a)
 
 # Cargar el array desde el archivo
-b = np.load('array_a.npy')
+b = np.load('data/array_a.npy')
 
 print(b)
 ```
@@ -80,10 +80,10 @@ Aquí hay un ejemplo de cómo puedes **guardar un array en un archivo de texto y
 
 ```python
 # Guardar el array en un archivo de texto
-np.savetxt('array_a.txt', a)
+np.savetxt('data/array_a.txt', a)
 
 # Cargar el array desde el archivo de texto
-c = np.loadtxt('array_a.txt')
+c = np.loadtxt('data/array_a.txt')
 
 print(c)
 ```
