@@ -1,11 +1,10 @@
 import numpy as np
 
-print("Checkeando lineas horizontales, verticuales y diagonales")
+print("Checkeando lineas horizontales, verticales y diagonales")
 # Creando Matriz con valores aleatorios entre ("X", "O")
 board = np.random.choice(["X", "O"], size=(3, 3))
 print("\nTablero Original: ")
 print(board)
-
 
 # Obtener, mostrar y checkear una fila
 print("\nLinea Horizontal 0 (primera fila):")
