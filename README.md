@@ -8,11 +8,11 @@
 - [Manual SQL](https://www.1keydata.com/es/sql/)
 - [Manual SQL (PostgreSQL)](https://www.um.es/geograf/sigmur/sigpdf/postgresql.pdf)
 - [Aprende SQL ahora! - MYSQL (HolaMundo)](https://www.youtube.com/watch?v=uUdKAYl-F7g)
-- [Que es Ciencia de Datos - Roadmap (Platzi)](https://www.youtube.com/watch?v=PpknKpjrM18) 📌
+- [Que es Ciencia de Datos - Roadmap (Platzi)](https://www.youtube.com/watch?v=PpknKpjrM18)
 - [Numpy: Guia](https://aprendeconalf.es/docencia/python/manual/numpy/)
-- [Numpy: Video Serie](https://www.youtube.com/watch?v=nN_TYjT_KiI&list=PLbi7Cp2PebjaW1eYFXklBWyouayV6EH3R) 📌
+- [Numpy: Video Serie](https://www.youtube.com/watch?v=nN_TYjT_KiI&list=PLbi7Cp2PebjaW1eYFXklBWyouayV6EH3R)
 - [Pandas: Guia](https://aprendeconalf.es/docencia/python/manual/pandas/)
-- [Pandas: Video Serie](https://www.youtube.com/watch?v=LnH_STJ2GXo&list=PLVs9JdE6ZZh0RBT7lIPxUkcTmAUhMEimn&index=1) 📌
+- [Pandas: Video Serie](https://www.youtube.com/watch?v=LnH_STJ2GXo&list=PLVs9JdE6ZZh0RBT7lIPxUkcTmAUhMEimn&index=1)
 
 ## Modulo 1 - Python: Programacion Orientada a Objetos
 
@@ -39,13 +39,13 @@
 
 ### Demo
 
-- [demo-script.sql](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/demo/demo-script.sql)
-- [SQL - Consultas](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/queries.md)
+- [demo-script.sql](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/demo/demo-script.sql) 📌
+- [SQL - Consultas](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/queries.md) 📆
 
 ### Recursos
 
-- [Base de Datos - Conceptos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/concepts.md)
-- [SQLite3 - Cheatsheet](https://www.sqlitetutorial.net/)
+- [Base de Datos - Conceptos](https://github.com/estebanmatias92/curso-python-avanzado-plan-de-estudio-CFL415/blob/main/modulo-2/recursos/concepts.md) 📌
+- [SQLite3 - Cheatsheet](https://www.sqlitetutorial.net/) 📌
 - [Curso de SQL desde CERO (Soy Dalto)](https://www.youtube.com/watch?v=DFg1V-rO6Pg)
 
 ### Trabajo en Clase
@@ -64,12 +64,12 @@
 
 #### Numpy
 
-- [Numpy: Guia](https://aprendeconalf.es/docencia/python/manual/numpy/) 📌
+- [Numpy: Guia](https://aprendeconalf.es/docencia/python/manual/numpy/)
 - [Numpy: Cheatsheet](https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
 #### Pandas
 
-- [Pandas: Guia](https://aprendeconalf.es/docencia/python/manual/pandas/) 📌
+- [Pandas: Guia](https://aprendeconalf.es/docencia/python/manual/pandas/)
 - [Pandas: Cheatsheet](https://www.paradigmadigital.com/wp-content/uploads/2019/02/Pandas_cheatsheet.pdf)
 
 #### Matplotlib
@@ -79,10 +79,10 @@
 
 ### Trabajo en Clase
 
-- [Guia 3: NumPy & Pandas - Introducción](https://docs.google.com/document/d/1oaUQti8OP20oLfckCctMyJn8kZo5vw4H_ySu_wovmHA/edit?usp=sharing) 📆
+- [Guia 3: NumPy & Pandas - Introducción](https://docs.google.com/document/d/1oaUQti8OP20oLfckCctMyJn8kZo5vw4H_ySu_wovmHA/edit?usp=sharing)
 
 ## Modulo 4 - Desarrollo de Aplicacion
 
 ### Trabajo Integrador
 
-- [Consigna: Aplicación Final](https://docs.google.com/document/d/1zQVobc4V5KrhRvbVNZHvV-LWbIYlyf08o9UZKOjSrcg/edit?usp=sharing) 📆
+- [Consigna: Aplicación Final](https://docs.google.com/document/d/1zQVobc4V5KrhRvbVNZHvV-LWbIYlyf08o9UZKOjSrcg/edit?usp=sharing)
