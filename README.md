@@ -1,20 +1,18 @@
-# Curso Base de Datos - Plan de Estudio
+# Introduccion a Bases de Datos y SQL
 
-## Recursos Generales
+## Teoria
 
-- [Manual SQL](https://www.1keydata.com/es/sql/)
-- [Aprende SQL ahora! - MYSQL (HolaMundo)](https://www.youtube.com/watch?v=uUdKAYl-F7g)
+- [📝 Base de Datos - Conceptos](https://github.com/estebanmatias92/mysql-guide/blob/main/recursos/concepts.md) 📌
+- [🎬 Curso de Base de Datos con MYSQL (TodoCode)](https://www.youtube.com/watch?v=SKOiEXlFNeM&list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf) 📌
+- [📖 Manual SQL](https://www.1keydata.com/es/sql/) 📌
+- [🎬 Aprende SQL ahora! - MYSQL (HolaMundo)](https://www.youtube.com/watch?v=uUdKAYl-F7g)
 
-## SQL (Structured Query Language): Introduccion
+## Practica - SQL Queries (consultas)
 
-### Demo
+- Material: [demo-script.sql](https://github.com/estebanmatias92/mysql-guide/blob/main/demo/demo-script.sql)
+- Tutorial Interactivo: [SQL Queries](https://github.com/estebanmatias92/mysql-guide/blob/main/recursos/queries.md) ⬅⬅⬅
 
-- [demo-script.sql](https://github.com/estebanmatias92/mysql-guide/blob/main/demo/demo-script.sql)
-- [SQL - Consultas](https://github.com/estebanmatias92/mysql-guide/blob/main/recursos/queries.md)
+### Cheatsheets
 
-### Recursos
-
-- [Base de Datos - Conceptos](https://github.com/estebanmatias92/mysql-guide/blob/main/recursos/concepts.md)
-- [MYSQL - Cheatsheet](https://www.mysqltutorial.org/mysql-cheat-sheet.aspx)
+- [MYSQL - Cheatsheet (machete)](https://www.mysqltutorial.org/mysql-cheat-sheet.aspx) 📌
 - [MYSQL - Cheatsheet 2](https://devhints.io/mysql)
-- [Curso de Base de Datos con MYSQL (TodoCode)](https://www.youtube.com/watch?v=SKOiEXlFNeM&list=PLQxX2eiEaqbwcW3dkmUqJq7B-SXHyCglf)
