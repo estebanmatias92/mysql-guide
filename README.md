@@ -1,4 +1,4 @@
-# Curso Python Avanzado en Ciencia de Datos - Plan de Estudio
+# Curso Base de Datos - Plan de Estudio
 
 ## Recursos Generales
 
