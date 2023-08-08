@@ -1,6 +1,8 @@
-# Conceptos básicos de las bases de datos
+# Conceptos básicos de las bases de datos (Relacionales)
 
 ## 1. Base de datos
+
+![Mapa conceptual: Base de Datos](https://showme.redstarplugin.com/d/ImzLKAsp)
 
 Una base de datos **es una colección organizada de datos**. Estos datos se organizan de manera que soporten procesos que requieren información, como consultas y reportes.
 
@@ -13,6 +15,28 @@ Una base de datos **es una colección organizada de datos**. Estos datos se orga
 | Tabla 2   |
 | ...       |
 +-----------+
+```
+
+## 2. Motor de Base de Datos
+
+Es el software que gestiona una base de datos. Un motor de base de datos es utilizado para crear, consultar, actualizar y administrar bases de datos.
+
+### Motores
+
+- MySQL
+- PostgreSQL
+- Oracle Database
+- SQL Server
+- MariaDB
+- IBM DB2
+- SQLite
+
+## 3. Lenguaje SQL
+
+SQL (por sus siglas en inglés **Structured Query Language**) es un **lenguaje de programación** utilizado **para comunicarse con y manipular bases de datos**. Los comandos SQL se utilizan para interactuar con la base de datos y realizar diversas tareas, como crear una base de datos, crear tablas, buscar, actualizar y eliminar datos.
+
+```SQL
+SELECT * FROM Usuarios;
 ```
 
 ## 2. Tabla
