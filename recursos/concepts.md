@@ -39,7 +39,7 @@ SQL (por sus siglas en inglés **Structured Query Language**) es un **lenguaje d
 SELECT * FROM Usuarios;
 ```
 
-## 2. Tabla
+## 4. Tabla
 
 Una tabla es una **colección de datos relacionados organizados en filas (registros) y columnas (campos)**. Cada tabla tiene un nombre único.
 
@@ -55,7 +55,7 @@ Una tabla es una **colección de datos relacionados organizados en filas (regist
 +--------+---------+--------+-----------+
 ```
 
-## 3. Registro
+## 5. Registro
 
 Un registro en una base de datos **es una unidad de información**. Cada registro consiste en un **conjunto de campos relacionados entre sí**. En el contexto de una tabla de base de datos, un registro **se puede visualizar como una fila única en la tabla**. Cada registro generalmente representa un objeto o entidad específica. Por ejemplo, en una tabla "Usuarios", cada registro podría representar a un usuario individual.
 
@@ -67,7 +67,7 @@ Un registro en una base de datos **es una unidad de información**. Cada registr
 +--------+---------+--------+-----------+
 ```
 
-## 4. Campo
+## 6. Campo
 
 Los campos son los **componentes individuales dentro de un registro** y cada uno almacena un elemento de datos específico. En el contexto de una tabla de base de datos, un campo **se puede visualizar como una columna**. Por ejemplo, en una tabla "Usuarios", podrías tener campos como "UserID", "Nombre", "Ciudad" y "Edad". Cada uno de estos campos almacena un tipo específico de datos relacionados con un usuario.
 
@@ -80,6 +80,8 @@ Los campos son los **componentes individuales dentro de un registro** y cada uno
 | Pedro   |
 +---------+
 ```
+
+## Claves
 
 ### 1. Clave Primaria (PK - Primary Key)
 
