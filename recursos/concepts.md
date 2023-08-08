@@ -19,7 +19,7 @@ Una base de datos **es una colección organizada de datos**. Estos datos se orga
 
 ## 2. Motor de Base de Datos
 
-Es el software que gestiona una base de datos. Un motor de base de datos es utilizado para crear, consultar, actualizar y administrar bases de datos.
+Es el **software que gestiona una base de datos**. Un motor de base de datos es utilizado para crear, consultar, actualizar y administrar bases de datos.
 
 ### Motores
 
